@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Voici la page contact de la Dev'Tech, vous pouvez nous contacter quelque soit votre demande, un devis, une question, un soucis, n'hésitez pas à nous soliciter.">
+    <title>Contact - La Dev'Tech</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body id="top">
+    <header class="containing-table">
+        <video autoplay loop poster="assets/img/backgroundblack.png" id="bgvid">
+            <source src="assets/video/fondvideo.webm" type="video/webm">
+            <source src="assets/video/fondvideo.mp4" type="video/mp4">
+        </video>
+        <div class="centre-align">
+            <div class="content">
+                <!-- Logo -->
+                <img src="assets/img/logo.png" alt="logo">
+                <!-- Nom de l'entreprise -->
+                <span class="text-light text-uppercase h2 d-block p-2">stark <strong>industries</strong></span>
+            </div>
+        </div>
+        <!-- backgournd attachement : fixed -->
+
+
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand text-uppercase text-light font-weight-bold" href="index.html">
+                    stark industries
+                  </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="catalogue.html">Catalogue</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="equipe.html">Équipe</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a><span class="sr-only">(current)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section class="p-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <h1 class="bg-primary text-light text-uppercase text-center p-1">Contact</h1>
+                        <p class="h6 text-justify">Si vous souhaitez nous contacter, nous vous promettons une réponse
+                            <strong>dans les 24h</strong> avec un service irréprochable et une écoute sans pareil.</p>
+                    </div>
+                    <form action="https://httpbin.org/post" method="post" class="col-md-6 offset-md-3">
+                        <div class="form-group">
+                            <label for="emailuser">Votre email</label>
+                            <input type="email" class="form-control form-control-lg" id="emailuser"
+                                placeholder="exemple@exemple.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Votre objet</label>
+                            <select name="subject" id="subject" class="form-control form-control-lg">
+                                <option value="1">Demandez un devis dès maintenant</option>
+                                <option value="2">Vous avez une question?</option>
+                                <option value="3">Un soucis sur le site?</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Entrez votre texte</label>
+                            <textarea name="textarea" id="textarea" cols="30" rows="10"
+                                class="form-control form-control-lg" placeholder="Votre message"></textarea>
+                        </div>
+                        <div class="form-group text-right">
+                            <button type="submit" class="btn btn-lg btn-primary btn-danger">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-uppercase text-light bg-dark">
+        <div class="container-fluid">
+            <p class="bg-dark text-center position-end m-0 p-3">Mentions légales</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

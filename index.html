@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Voici la page accueil de la Dev'Tech vous y retrouverez une description rapide de notre équipe ainsi qu'un aperçu de nos produits.">
+    <title>Bienvenue - La Dev'Tech</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body id="top">
+    <header class="containing-table">
+        <video autoplay loop poster="assets/img/backgroundblack.png" id="bgvid">
+            <source src="assets/video/fondvideo.webm" type="video/webm">
+            <source src="assets/video/fondvideo.mp4" type="video/mp4">
+        </video>
+        <div class="centre-align">
+            <div class="content">
+                <!-- Logo -->
+                <img src="assets/img/logo.png" alt="logo">
+                <!-- Nom de l'entreprise -->
+                <span class="text-light text-uppercase h2 d-block p-2">stark <strong>industries</strong></span>
+            </div>
+        </div>
+        <!-- backgournd attachement : fixed -->
+
+
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-uppercase text-light font-weight-bold" href="index.html">
+                    stark industries
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalogue.html">Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="equipe.html">Équipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="p-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="bg-primary text-light text-uppercase p-1">a propos de nous</h1>
+                        <p class="p-4 text-justify">
+                            Notre entreprise est encore jeune, mais très dynamique et sera rester à la point des
+                            technologies émergentes dans un monde numérique en évolution constante. De la conception
+                            simple jusqu'au responsive web design, nous serons répondre à toutes vos demandes autant en
+                            front qu'en back.
+                            Nous serons amener le numérique au creux de votre main, afin de répondre aux mieux à vos
+                            besoins numérique.
+                        </p>
+                        <p class="text-right font-weight-bold font-italic pr-5">
+                            "Avec nous l'avenir est à portée de main"</p>
+                        <a href="equipe.html" class="btn btn-danger">Voir notre équipe</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="p-5 m-5"></div>
+
+        <section class="p-5 bg-light">
+            <div class="container">
+                <h2 class="text-center text-uppercase p-1">Nos produits</h2>
+                <div class="card-deck py-5">
+                    <div class="card bg-dark">
+                        <img src="assets/img/armor.jpg" alt="Photo du produit de l'armure d'Iron Man">
+                        <h3 class="card-title text-light text-center pt-3">Armor SI 2.0</h3>
+                    </div>
+
+                    <div class="card bg-dark">
+                        <img src="assets/img/reactor.jpg" alt="Photo du produit du réacteur d'Iron Man">
+                        <h3 class="card-title text-light text-center pt-3">Reactor MK2</h3>
+                    </div>
+
+                    <div class="card bg-dark">
+                        <img src="assets/img/gauntlet.jpg" alt="Photo du produit du gant d'Iron Man">
+                        <h3 class="card-title text-light text-center pt-3">Gauntlet V3</h3>
+                    </div>
+
+
+                </div>
+                <div class="text-center">
+                    <a href="catalogue.html" class="btn btn-danger">Voir notre catalogue</a>
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+    </main>
+
+    <div class="p-5 m-5"></div>
+
+    <footer class="text-uppercase text-light bg-dark">
+        <div class="container-fluid">
+            <p class="bg-dark text-center position-end m-0 p-3">Mentions légales</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

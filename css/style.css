@@ -1,0 +1,51 @@
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 12px;
+    background-color: #F3EFF5;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+header {
+    min-height: 500px;
+}
+#bgvid {
+    position: fixed; 
+    display: block;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background: url('../assets/img/backgroundblack.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.containing-table {
+    display: table;
+    width: 100%;
+}
+.centre-align {
+    padding: 10px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.content {
+    display: inline-block;
+    vertical-align: top;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid blue;
+}
